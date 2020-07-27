@@ -139,8 +139,6 @@ while True:
 
     detect_police_stars(SCREEN_, SCREEN_HSV_, SCREEN_RGB_)
 
-    # cv2.imshow("MASK", mask)
-
     detect_road_lanes(SCREEN_, SCREEN_HSV_, SCREEN_RGB_)
 
     # Lane tracking has started
