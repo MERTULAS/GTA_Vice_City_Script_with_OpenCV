@@ -55,13 +55,13 @@ So it needs to be masked by a region of interest.
             
  OK. Let's continue second part
  
- The default color are  dark blue in the area where the police stars but when the cops chase us, this color turns into cyan-like.
+ The default color is dark blue in the area where the police stars but when the cops chase us, this color turns into cyan-like.
  This time, we need to mask the hsv space with cyan. And after we should mask the region where the stars are located.
  
 ![police stars mask](https://user-images.githubusercontent.com/67822910/88495540-e1f8b780-cfc2-11ea-82d5-442604b5efe8.PNG)
 
 I made this area very small because we have to get rid of it even if it is one star. Another reason is it should not process the sky with inaccuracy.
-If a contour is found in this area, the following password is automatically written.
+If a contour is found in this area, the following cheat is automatically written.
 
 "LEAVEMEALONE"
 
