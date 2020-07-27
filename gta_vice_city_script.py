@@ -147,11 +147,7 @@ while True:
     pydirectinput.keyUp("right")
     pyautogui.keyDown("w")
 
-    # cv2.imshow("CANNY3 WINDOW", msk)
-
     cv2.imshow('GAME WINDOW', SCREEN_RGB_)
-
-    # cv2.imshow("CANNY WINDOW", screen_canny)
 
     if cv2.waitKey(25) & 0xFF == ord('q'):
         break
