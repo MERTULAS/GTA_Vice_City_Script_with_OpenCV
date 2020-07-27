@@ -24,7 +24,7 @@ So it needs to be masked by a region of interest.
  
  If the contour is found in the size set in this area, it is understood that there is a fire then cheat wrote.
  
- You can guess this password :D
+ You can guess this cheat code :D
  The cheat: "ASPIRINE" 
  
     def detect_engine_fire(screen, screen_hsv, screen_rgb):
