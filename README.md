@@ -1,5 +1,5 @@
-# OpenCV-Projects
- OpenCV projects on games
+# GTA Vice City Script with OpenCV
+  --------OpenCV projects on games--------
 
 Script that: automatically escapes from the cops, stops the engine fire automatically and Tommy Vercetti  keeps following the lane 
 
