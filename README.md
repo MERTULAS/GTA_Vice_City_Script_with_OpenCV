@@ -54,6 +54,7 @@ So it needs to be masked by a region of interest.
                 pyautogui.write("ASPIRINE")
             
  OK. Let's continue second part
+ 
  The default color are  dark blue in the area where the police stars but when the cops chase us, this color turns into cyan-like.
  This time, we need to mask the hsv space with cyan. And after we should mask the region where the stars are located.
  
@@ -87,7 +88,7 @@ If a contour is found in this area, the following password is automatically writ
 
 Let's continue third part
 
-In this episode, Tommy Vercetti follows the yellow lines on the road. Since the game is old, the color transitions on the road lines are not understood enough. So it is difficult to have a road lane tracking on a car. 
+In this part, Tommy Vercetti follows the yellow lines on the road. Since the game is old, the color transitions on the road lines are not understood enough. So it is difficult to have a road lane tracking on a car. 
 
 I didn't use hough transform here because, as I said, the lines are not clear enough. So I use findcontours and I detect yellow lane at the middle of the road. If the strip disappears from the frame screen due to bend, its last position is kept in a series, the number of elements of the series is fixed as 1, and when there is no strip on the screen, movement is provided according to this series.
 
