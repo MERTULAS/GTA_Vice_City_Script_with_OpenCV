@@ -90,7 +90,7 @@ Let's continue third part
 
 In this part, Tommy Vercetti follows the yellow lines on the road. Since the game is old, the color transitions on the road lines are not understood enough. So it is difficult to have a road lane tracking on a car. 
 
-I didn't use hough transform here because, as I said, the lines are not clear enough. So I use findcontours and I detect yellow lane at the middle of the road. If the strip disappears from the frame screen due to bend, its last position is kept in a series, the number of elements of the series is fixed as 1, and when there is no strip on the screen, movement is provided according to this series.
+I didn't use hough transform here because, as I said, the lines are not clear enough. So I use findcontours and I detect yellow lane at the middle of the road. If the strip disappears from the frame screen due to bend, its last position is kept in a list, the number of elements of the list is fixed as one, and when there is no strip on the screen, movement is provided according to this list.
 
 ![road lane tracking](https://user-images.githubusercontent.com/67822910/88496074-a2cb6600-cfc4-11ea-8e25-6505db6d05a3.PNG)
  
