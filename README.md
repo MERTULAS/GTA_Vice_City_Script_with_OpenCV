@@ -2,8 +2,10 @@
   --------OpenCV projects on games--------
 
 Script that: automatically escapes from the cops, stops the engine fire automatically and Tommy Vercetti  keeps following the lane 
+## Usage
+Set the game window to be in the upper left corner of the screen, to 640x480 and run the code. That's all
 
-OK. How is it working?
+## OK. How is it working?
 
 The real time frame is converted into hsv space
 
